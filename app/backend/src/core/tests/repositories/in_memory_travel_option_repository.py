@@ -1,12 +1,12 @@
 from typing import List, Optional
-from core.pagination import (
+from src.core.repositories import (
     PaginatedResult,
     PaginationParams,
 )
-from travel_option_repository import (
+from src.domain.application.repositories.travel_option_repository import (
     TravelOptionRepository,
 )
-from enterprise.entities.travel_option import TravelOption
+from  src.domain.enterprise.entities.travel_option import TravelOption
 
 
 class InMemoryTravelOptionRepository(TravelOptionRepository):

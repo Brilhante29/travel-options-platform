@@ -1,11 +1,11 @@
 import pytest
-from core.errors.invalid_input_error import InvalidInputError
-from core.errors.resource_not_found_error import ResourceNotFoundError
-from enterprise.entities.travel_option import TravelOption
-from use_cases.find_most_comfortable_and_fastest_travel_option_for_city import (
+from src.core.errors.invalid_input_error import InvalidInputError
+from src.core.errors.resource_not_found_error import ResourceNotFoundError
+from src.domain.enterprise.entities.travel_option import TravelOption
+from src.domain.application.use_cases.find_most_comfortable_and_fastest_travel_option_for_city import (
     FindMostComfortableAndFastestTravelOptionForCityUseCase,
 )
-from core.tests.in_memory_travel_option_repository import (
+from src.core.tests.repositories.in_memory_travel_option_repository import (
     InMemoryTravelOptionRepository,
 )
 

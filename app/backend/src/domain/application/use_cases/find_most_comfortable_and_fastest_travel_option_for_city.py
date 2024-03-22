@@ -1,7 +1,7 @@
-from core.errors.invalid_input_error import InvalidInputError
-from core.errors.resource_not_found_error import ResourceNotFoundError
-from core.utils.either import left, right
-from travel_option_repository import TravelOptionRepository
+from src.core.errors.invalid_input_error import InvalidInputError
+from src.core.errors.resource_not_found_error import ResourceNotFoundError
+from src.core.utils.either import left, right
+from src.domain.application.repositories.travel_option_repository import TravelOptionRepository
 
 
 class FindMostComfortableAndFastestTravelOptionForCityUseCase:

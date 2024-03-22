@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 from typing import Generic, TypeVar, List, Optional
-from core.pagination import (
+from src.core.repositories.pagination import (
     PaginatedResult,
     PaginationParams,
 )

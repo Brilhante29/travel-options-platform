@@ -1,5 +1,5 @@
-from core.entites.entity import Entity
-from core.entites.unique_entity_id import UniqueEntityID
+from src.core.entites.entity import Entity
+from src.core.entites.unique_entity_id import UniqueEntityID
 
 
 class TravelOption(Entity):

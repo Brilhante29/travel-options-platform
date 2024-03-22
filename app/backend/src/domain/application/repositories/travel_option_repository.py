@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from typing import List, Optional
-from core.crud_repository import CrudRepository
-from enterprise.entities.travel_option import TravelOption
+from src.core.repositories.crud_repository import CrudRepository
+from src.domain.enterprise.entities.travel_option import TravelOption
 
 
 class TravelOptionRepository(CrudRepository[TravelOption, str], ABC):

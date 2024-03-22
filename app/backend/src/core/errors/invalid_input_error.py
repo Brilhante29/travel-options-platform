@@ -1,4 +1,4 @@
-from core.errors.interfaces.use_case_error import UseCaseError
+from src.core.errors.interfaces.use_case_error import UseCaseError
 
 
 class InvalidInputError(UseCaseError):

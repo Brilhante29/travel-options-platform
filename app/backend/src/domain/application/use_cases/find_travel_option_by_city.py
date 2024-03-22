@@ -1,6 +1,6 @@
-from core.utils.either import left, right
-from core.errors.resource_not_found_error import ResourceNotFoundError
-from travel_option_repository import TravelOptionRepository
+from src.core.utils.either import left, right
+from src.core.errors.resource_not_found_error import ResourceNotFoundError
+from src.domain.application.repositories.travel_option_repository import TravelOptionRepository
 
 
 class FindTravelOptionsByCityUseCase:
